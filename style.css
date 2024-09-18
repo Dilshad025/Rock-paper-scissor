@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    /* isse sb center me agya */
+}
+h1{
+    background-color: #081b30;
+    color: #fff;
+    height: 4rem;
+    line-height: 4rem;
+    /* uper aur niche dono se create hoga height */
+}
+.choice{
+    height: 150px;
+    width: 150px;
+    /* margin: auto; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    /* object-fit:contain; */
+    /* isse img apna width me bara chota hoga */
+    /* filter: drop-shadow(1px 1px 20px red); */
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 20px red);
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+#user-score , #comp-score{
+    font-size: 4rem;
+}
+.msg-con{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+}
